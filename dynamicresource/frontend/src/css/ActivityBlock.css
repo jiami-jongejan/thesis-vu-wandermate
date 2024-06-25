@@ -1,0 +1,113 @@
+.activity {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #D5E9FD;
+    width: 900px;
+    text-align: center;
+    z-index: 100;
+    color: #2B67D8;
+    height: 360px;
+    margin-bottom: 120px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.05);
+}
+.activityImage {
+    position: relative;
+    left: 0;
+    width: 400px;
+    max-width: 200px;
+}
+
+.activityText {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    left: 320px;
+    margin-top: -500px;
+    width: 560px;
+    color: #4f4f4f;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.activityText b, .activityText h2 {
+    color:#2B67D8;
+}
+.keywords {
+    display: inline-flex;
+    padding: 0 10px;
+    color: #2B67D8;
+    text-transform: lowercase;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.keywordDuration {
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid #009688;
+    color: #009688;
+}
+
+.keywordActivityType {
+    border-radius: 25px;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 15px;
+    margin-left: 25px;
+    border: 1px solid #009688;
+    color: #009688;
+}
+
+.verticalLine {
+        border-left: 3px #c8e6ff solid;
+        position: absolute;
+        margin-top: -33px;
+        height: 41px;
+        margin-left: 30px;
+}
+
+.emoji {
+    display: inline;
+    padding-right: 10px;
+}
+
+.transportLine {
+    font-family: 'Rubik';
+    position: absolute;
+    margin-top: -120px;
+    left: 56%;
+    text-align: left;
+    border-left: 2px dashed #7B87C6;
+    padding: 25px 10px;
+    color: #7B87C6;
+    font-weight: 500;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.transportEmoji {
+    position: absolute;
+    margin-left: -60px;
+    font-size: 24px;
+    opacity: 0.6;
+}
+
+
+.activityBottom {
+    position: absolute;
+    bottom: 20px;
+    left: 320px;
+    text-align: left;
+}
+
+.activityContainer {
+    transition: opacity 0.3s ease, transform 0.3s ease, filter 0.3s ease;
+  }

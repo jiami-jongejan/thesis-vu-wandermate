@@ -1,0 +1,47 @@
+.exampleTrip {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.exampleTrip img:hover {
+  filter: blur(0px);
+  transition-duration: 0.5s;
+
+}
+
+.exampleTrip img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition-duration: 1s;
+  filter: blur(1.5px);
+  opacity: 0.6;
+}
+
+.exampleTrip .content {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
+}
+
+.exampleTrip .content h2 {
+  margin-top: 0;
+
+  font-size: 18px;
+}
+
+.exampleTrip .content h2 span {
+  padding: 0 10px;
+  box-shadow: inset 0 -0.4em 0 0 rgb(255, 255, 255);
+  color: #0278E1;
+}
+
+.exampleTrip .content p {
+  font-size: 14px;
+}

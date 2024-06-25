@@ -1,0 +1,6 @@
+openai
+python-dotenv
+flask
+azure-core
+azure-search-documents
+flask-cors

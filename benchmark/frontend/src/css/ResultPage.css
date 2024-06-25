@@ -1,0 +1,59 @@
+.headerImgResult {
+    position: absolute;
+    left: 0;
+    max-height: 500px;
+    width: 980px;
+    top: 0;
+    opacity: 0.6;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 28%)
+}
+
+.travelItinerary {
+    margin-top: 450px;
+    position: relative;
+    width: 850px;
+}
+
+.destinationTitle {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 950px;
+    text-align: center;
+    font-size: 62px;
+    color: #0278E1;
+    font-weight: 600;
+}
+
+.destinationTitle span {
+    box-shadow: inset 0 -0.4em 0 0 rgb(255, 255, 255);
+}
+
+.userInterest {
+    padding: 8px 15px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 30px;
+    top: 390px;
+    letter-spacing: 0.3px;
+    font-weight: 500;
+    color: #7B87C6;
+}
+
+.interests {
+    display: flex;
+    gap: 10px;
+}
+
+.textDivResult {
+    z-index: 100;
+    position: absolute;
+    top: 0px;
+    width: 900px;
+    background-color: #fff;
+    padding: 50px 30px;
+    height: 100vh;
+    font-family: 'Rubik';
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    overflow: scroll;
+}
